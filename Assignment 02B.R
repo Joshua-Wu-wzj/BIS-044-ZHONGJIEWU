@@ -18,3 +18,4 @@ theDF$x[3]
 names(theDF)<-c("Popularity", "Team Strength", "Sport")
 
 sd(theDF$`Team Strength`,na.rm = TRUE)
+#50/50
