@@ -1,7 +1,6 @@
 if (!require("tidyverse")) install.packages("tidyverse")
 library(readxl)
 dataset1 <- read_excel("C:/Users/wuzho/Desktop/Lehigh University/Lehigh 2021 Fall/BIS 044/dataset1.xls")
-
 attach(dataset1)
 
 library(tidyverse)
@@ -33,5 +32,5 @@ dataset_replaced <- dataset1 %>%
 View(dataset_replaced)
 
 View(count(dataset_replaced,Title))
-
+#100/100
 
